@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleFoilo.css">
+    <title>My Foilo</title>
+    <link href="images/favicon.png" rel="icon">
+    <script src="https://kit.fontawesome.com/d7fa6ca779.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- this is my home page code -->
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <img src="images/logo_transparent.png" alt="No logo" class="logo"/>
+            <ul id="sidebar">
+                <li><a href="#Header">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>             
+                <li><a href="#portfoilo">PortFoilo</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <i class="fa-solid fa-xmark" onclick="closebar()"></i>
+           </ul>
+           <i class="fa-solid fa-bars"  onclick="openbar()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Ui Designer/Frontend Developer</p>
+                <h1>Hi,I'm <span> Suneel Masih</span> <br> <i>From<br>PAKISTAN</i> </h1>
+            </div>
+        </div>
+    </div>
+    <!-- start about us codes  -->
+        <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="no user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Suneel I have done front end development from Nexskill.
+                        I have done my FSC Pre-Engineering Govt Degree from Shakargarh College.
+                        I came to Lahore to study after completing FSC.
+                        Next to Lahore I started learning development programming,
+                        After finishing Frontend or started Frontend Development with React JS.
+                        Now i done Frontend Development .
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-link active" onclick="onclicktab('skills')">Skills</p>
+                        <p class="tab-link"  onclick="onclicktab('experience')">Experience</p>
+                        <p class="tab-link"  onclick="onclicktab('education')">Education</p>
+                    </div>
+                    <div class="tabdata active-tab-data" id="skills">
+                        <ul>
+                            <li><span>UI</span><br>
+                            Designing Web Interface</li>
+                            <li><span>Frontend Developer</span><br>
+                                Web App Development</li>
+                                <li><span>Logo Designing</span><br>
+                                    Designing A personnal For any One</li>
+                                    <li><span>SEO</span><br>
+                                        Ranking The Website</li>
+                        </ul>
+                    </div>
+                    <div class="tabdata" id="experience">
+                        <ul>
+                            <li><span>UI</span><br>
+                            6 months Practice or learning</li>
+                            <li><span>Frontend Development</span><br>
+                                3 months Practice or learning</li>
+                                <li><span>Logo Designing</span><br>
+                                    2 months </li>
+                                    <li><span>SEO</span><br>
+                                        Biggner</li>
+                        </ul>
+                    </div>
+                    <div class="tabdata" id="education">
+                        <ul>
+                            <li><span>FSC-)</span><br>
+                                (Pre-Engineering</li>
+                                <li><span>Web Development</span><br>
+                                    Done FSC or Join <span>NEX</span>skill <br> For and learning Web programming.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>websites Designing and make a beatiful user interface create with the help of some language. this language name is HTML,CSS,BOOSTRAP and JACASCRIPT.
+                        that language is use in forntend and create user Interface.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Web Developer</h2>
+                    <p>Web Developer is called a programming,that programming is also using logical language . Me use ReactJS that is the laybare of JavaScript.
+                        ReactJS create a smooth websites .
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>SEO/Logo</h2>
+                    <p>SEO(Search Engine Optimization)that is use for Ranking the websites and searching the side and show the top of searching list. 
+                        logo also show company or band name or sign for user.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------portfoilo------ -->
+    <div id="portfoilo">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work-img">
+                    <img src="images/work-1.png" alt="no img">
+                    <div class="layer">
+                        <h3>HTML/CSS/JS</h3>
+                        <p>The sense of relief and accomplishment you feel when you finish your project is indescribable.With HTLM CSS ,JS you can create projects of all shapes and sizes. You can use these technologies to create websites,</p>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work-img">
+                    <img src="images/work-2.png" alt="no img">
+                    <div class="layer">
+                        <h3>Bootstrap 5</h3>
+                        <p>Complete with bootstrap 5Bootstrap 5 is the next generation of the popular CSS framework, Bootstrap. It includes all of the same core features as the original Bootstrap Framework,Bootstrap 5 is the newest version of the popular front-end framework. It includes a number of new features and enhancements over previous versions.</p>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work-img">
+                    <img src="images/work-3.png" alt="no img">
+                    <div class="layer">
+                        <h3>REACT JS</h3>
+                        <p>React is a JavaScript library for building user interfaces. It is declarative, efficient, and flexible. With React, you can create complex web applications with ease.In this project, we will be using ReactJS exclusively. This means that all of our code will be written in the ReactJS language.</p>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -----------Contact us-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row"> 
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>suneelnaar5824893@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>+92 3205 824893</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="" class="btn">Dowload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Create by &copy; <a>Suneel Masih</a></p>
+        </div>
+    </div>
+    <!-- --------js script-------- -->
+   <script>
+    var linkclick =document.getElementsByClassName("tab-link");
+    var dataactive =document.getElementsByClassName("tabdata");
+    function onclicktab (linkid){
+        for(linkclic of linkclick){
+            linkclic.classList.remove("active")
+        }
+            for(dataactiv of dataactive){
+                dataactiv.classList.remove("active-tab-data")
+            }
+        event.currentTarget.classList.add("active");
+        document.getElementById(linkid).classList.add("active-tab-data");
+    }
+   </script>
+   <script>
+     var sidebar = document.getElementById("sidebar")
+
+     function openbar(){
+        sidebar.style.right="0";
+     }
+     function closebar(){
+        sidebar.style.right="-200px";
+     }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxPYbyCBUSyA-ESe2y5k4DfXFPJQCmV-SxQZ75iIjNQI6VVTZf5IrtwyfKATwaaJHXRkg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Successfully Send Your Message"
+            setTimeout (function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
